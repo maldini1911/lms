@@ -1,0 +1,389 @@
+.course-data{color:red;font-weight: bolder}
+aside
+{
+    background: url('../img/sidebar.jpg');
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.sidebar
+{
+    transform: translateY(-50px);
+}
+
+.navbar-expand
+{
+
+  border-bottom:2px solid #222 !important;
+}
+
+
+.main-header a{color:#fff!important}
+
+
+.main-sidebar .overly
+{
+    background: linear-gradient(#F4D03F, #FF8235, #16A085);
+    opacity: 75%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.main-sidebar .nav-sidebar
+{
+  background: rgba(255,255,255,.6);
+  margin-bottom: 100px;
+  z-index: 1
+
+}
+.main-sidebar li a
+{
+    padding: 0;
+    color:#111 !important;
+    border-bottom: 1px solid #F4D03F;
+    padding: 10px;
+}
+
+/*
+.main-sidebar li a:hover
+{
+    transition: .5s;
+    background: #fff;
+}
+*/
+
+.head-dsahboard
+{
+    padding-top: 20px;
+    color:#fff;
+    opacity: 1;
+    text-shadow: 0px 0px 1px #111;
+    font-weight: bolder;
+}
+
+
+
+.link-edit, .link-delete, .link-show{display: inline-flex;color:#fff;margin: 0 2px;justify-content: center;}
+.link-edit
+{
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+}
+
+.delete-question{display: none;}
+
+.modal-header h4{margin: auto;}
+
+.modal-body h4
+{
+    background: #333;
+    border-radius: 4px;
+    color: #111;
+    padding: 5px;
+}
+
+.modal-body p
+{
+    font-size: 20px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    padding: 5px;
+    background: #f2f2f2;
+}
+
+
+.content-wrapper{background:white;}
+
+tr{height: 0% !important}
+td, th{text-align: center; vertical-align: middle !important;font-size: 14px;}
+
+thead td{font-size: 20px;font-weight: bolder;vertical-align: middle;}
+
+.breadcrumb-item a
+{
+    color: #111;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+.content-header{background: white;;}
+
+.create
+{
+  display: block;
+  background: #111;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+.create:hover{color: #fff;}
+
+tbody tr{background: #F2F2F2;}
+
+.action-buttons h4
+{
+    background: #eee;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.flex{display: flex;}
+/** End Public Dashboard **/
+
+/** Start Guard Admin **/
+.number-count{color:#FF8235;font-weight: bold;}
+#data option{background: #f1f1f1;}
+
+/** End Guard Admin **/
+
+
+
+
+
+
+/** Start Student **/
+.student-admin img
+{
+  border-radius: 100%;
+  box-shadow: 0px 0px 5px 0px #111;
+  transform: translateY(-25px)
+}
+
+.student-admin table{background: #f2f2f2}
+
+
+.view-lectures-students .card{padding: 20px;}
+.view-lectures-students .card h5{color:#FF4000;font-weight: bolder;margin-bottom: 10px}
+
+.view-lectures-students .card a
+{
+  text-decoration: none;
+  color:#fff;
+  font-weight: bolder;
+  margin: 0 10px;
+}
+
+.view-lectures-students .card i
+{
+  color:#FF4000;
+  font-weight: bolder;
+  transform: translateY(3px);
+  font-size: 20px
+}
+.view-lectures-students .doctor{margin-bottom: 10px}
+.view-lectures-students .doctor img{max-width: 50px;height: 50px;border-radius: 100%;margin-right:10px}
+.view-lectures-students .doctor p{display: inline-block;font-size: 20px;font-weight:bold;}
+/** End Student **/
+
+/** Start Docotrs **/
+.show-doctor table{background: #f2f2f2;box-shadow: 0px 0px 14px 2px #eee;}
+.image-box-doctor img
+{
+    width: 20%;
+    border-radius: 100%;
+    transform: translateY(-30px);
+    box-shadow: 0px 0px 14px 11px #eee;
+}
+
+
+.my-course h4
+{
+    color:blue;
+    background: #f2f2f2;
+    padding: 20px;
+    border-radius: 4px;
+}
+.my-course span{color:#333}
+/** End Doctors **/
+
+/** End Guard Admin **/
+
+
+
+/************ assignment And Quizes **********************/
+
+/** Doctor **/
+.assignment h4, .quizes h4{color:black;}
+.assignment li
+{
+    background:#fff;
+    margin-top:20px;
+    padding:10px;
+}
+
+.assignment button, .quizes button{width: 200px;}
+
+.mark-time{display: none;}
+
+
+/** Student **/
+.quize_student section:not(:nth-of-type(1)){display:none;}
+
+
+.assignement_student h2, .quize_student h2
+{
+    background: #eee;
+    padding: 20px;
+}
+
+.image-choise{display: none;}
+
+.quize_student section h3:not(:nth-of-type(1)){display: none}
+
+
+#results
+{
+    background: #f2f2f2;
+    padding: 30px;
+}
+
+#results h1
+{
+    text-shadow: 0px 0px 1px #111;
+}
+
+#results li
+{
+    font-size: 25px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#results li span{color:red}
+
+
+#message-send-answer
+{
+  color:#111 !important;
+  font-weight: bolder;
+  font-size: 20px;
+  display: none
+}
+/** Start Dashboard Doctors **/
+.dashboard-style
+{
+  background: #333;
+  color:#fff;
+  margin: 0;
+  padding: 20px;
+  border-top: 5 solid red !important
+}
+
+.content-wrapper{padding: 0!important;min-height:0px !important;}
+
+.dashboard-style .inner{font-size: 16px}
+.dashboard-style .inner i{font-size: 25px}
+.dashboard-style .inner h3{color: #DF7401}
+
+.table-dashboard .row{margin-top: 20px}
+
+.count-courses{transform:translateY(15px)}
+
+.beta
+{
+  float:right;
+  background:#FF8235;
+  color:#fff;
+  border-radius: 20px;
+  padding: 2px;
+
+}
+
+.image-type, .video-type{display: none}
+.navbar-expand .navbar-nav .dropdown-menu{background: #333;color:#fff!important}
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #333;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu hr
+{
+  margin: 0;
+  padding: 0;
+  line-height: 0
+}
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+#upload, #uploadLogo, #uploadLogin {
+    opacity: 0;
+}
+
+#upload-label, #upload-label-logo, #upload-label-login{
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.image-area, .image-area-logo, .image-area-login {
+    border: 2px dashed rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    position: relative;
+}
+
+.image-area::before, .image-area-logo::before, .image-area-login::before {
+    content: 'Uploaded image result';
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.image-area img, .image-area-logo img, .image-area-login img{
+    z-index: 2;
+    position: relative;
+}
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+
+.type-questions button{display: inline-block !important;margin: 5px 0}
+
+
+/** End Dashboard Doctors **/
+
+
+/** start Footer **/
+.main-footer
+{
+    background: #222;
+    border-top: 1px solid #dee2e6;
+    color: #fff;
+    padding: .25rem;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.main-footer a{color:#FF8235}
+.main-footer a:hover
+{
+  color:#F4D03F;
+  transition: .5s
+}
+/** End Footer **/
+#squads-course, #term-course{display: none}

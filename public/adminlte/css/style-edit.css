@@ -1,0 +1,18 @@
+#cc {
+    /*cursor: url(./BoxCursor.cur), none;*/
+    cursor: crosshair;
+     max-width:100% !important;
+
+}
+
+#url-image{max-width: 30%;margin: auto;}
+#sidebar {
+  display: inline-block;
+}
+
+#sidebar .list-group-item{display: inline !important;}
+
+#sidebar .options{cursor: pointer;}
+
+
+#wrap{overflow: hidden;}
